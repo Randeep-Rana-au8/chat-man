@@ -1,0 +1,12 @@
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <span>Welcome to Chat Man🧑‍💻🚀</span>
+      <p>Developer - <b>Randeep Rana</b> </p>
+    </div>
+  );
+}
+
+export default App;
