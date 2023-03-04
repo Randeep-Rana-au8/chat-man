@@ -5,6 +5,7 @@ import "./App.scss";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
+import Animations from './components/Animations';
 
 function App() {
   const context = useContext(AuthContext);
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Animations />
       <Routes>
         <Route path="/">
           <Route
